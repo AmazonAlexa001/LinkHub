@@ -1,6 +1,6 @@
 # Kimberly Martinez - My Profile
 
-![Profile Picture]()
+![Profile Picture](green_terminal_new_image.png)
 
 Hi, I'm Kimberly Martinez, a Graduate student at Santa Clara University. In my spare time, I enjoy caring for my cactus named Pablo.
 
