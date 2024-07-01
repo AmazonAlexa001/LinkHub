@@ -2,6 +2,9 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
+    /* Add a fallback font family */
+    /* Example: */
+    /* font-family: 'Courier New', Courier, monospace, sans-serif; */
     background-color: black;
     color: #00FF00; /* Brighter green */
     line-height: 1.6;
@@ -15,10 +18,6 @@ h1, h2 {
     text-align: center;
 }
 
-.intro {
-    margin-bottom: 20px;
-}
-
 .profile-picture {
     display: block;
     margin: 0 auto;
@@ -29,20 +28,14 @@ h1, h2 {
     border: 3px solid #00FF00; /* Brighter green */
 }
 
-.intro-text {
+.intro-text, .section-title, .links {
     text-align: center;
     margin-bottom: 20px;
 }
 
 .section-title {
-    text-align: center;
     margin-top: 30px;
     font-size: 1.5em;
-}
-
-.links {
-    margin-top: 20px;
-    text-align: center;
 }
 
 .links a {
@@ -59,4 +52,14 @@ h1, h2 {
 .links a:hover {
     background-color: #00FF00; /* Brighter green */
     color: black;
+}
+
+/* New styles for the message about friend's business */
+.friend-message {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
 }
