@@ -1,4 +1,4 @@
-# Kimberly Martinez - My Profile
+# Kimberly Martinez
 
 ![Profile Picture](green_terminal_new_image.png)
 
