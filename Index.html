@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <button id="linkhub-description" class="corner-button">Link Hub</button>
+            <img src="green_terminal_new_image.png" alt="Profile Picture" class="profile-pic">
+            <h1 class="title">Kimberly Martinez's Link Hub</h1>
+            <p class="subtitle">Welcome to my link hub! Here you can find all my important links.</p>
+        </div>
+    </header>
+    <main>
+        <ul>
+            <li><a href="https://www.instagram.com/hey_alexa02/" target="_blank" class="tooltip">Instagram
+                <span class="tooltiptext">Follow me on Instagram</span>
+            </a></li>
+            <li class="collapsible-section">
+                <a class="tooltip collapsible">Friends' Stores
+                    <span class="tooltiptext">See my friends' stores</span>
+                </a>
+                <div class="content">
+                    <a href="https://www.instagram.com/ks.trinkettreasures?igsh=MzRlODBiNWFlZA==" target="_blank" class="tooltip">KS Trinket Treasures
+                        <span class="tooltiptext">Support KS Trinket Treasures</span>
+                    </a>
+                    <a href="https://www.instagram.com/floral.sitches?igsh=MzRlODBiNWFlZA==" target="_blank" class="tooltip">Floral Stitches
+                        <span class="tooltiptext">Support Floral Stitches</span>
+                    </a>
+                </div>
+            </li>
+            <li><a href="https://www.depop.com/amazon_alexa_/" target="_blank" class="tooltip">My Online Store
+                <span class="tooltiptext">Shop my thrifted clothes</span>
+            </a></li>
+            <li><a href="URL_TO_OTHER_PROJECTS" target="_blank" class="tooltip">Other Projects
+                <span class="tooltiptext">Check out my other projects</span>
+            </a></li>
+        </ul>
+    </main>
+    <footer>
+        <button id="footer-toggle-theme" class="footer-button">Toggle Theme</button>
+    </footer>
+    <div id="linkhub-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Link Hub is a centralized place where you can find all important links related to Kimberly Martinez. Explore to connect with me on social media, support my friends' stores, shop my thrifted clothes, and check out my other projects!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
